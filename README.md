@@ -1,5 +1,5 @@
 # Nate Pann iOS Widget
-click to read the top-ranking 오늘의 판 from your iPhone homescreen. made with [Scriptable](https://scriptable.app).
+click and read the top-ranking 오늘의 판 from your iPhone homescreen. made with [Scriptable](https://scriptable.app).
 
 <img src="https://user-images.githubusercontent.com/3083888/176691342-521dbee9-0d59-4f44-a807-b8bbb43d2c08.png" width="300"/>
 
@@ -11,4 +11,4 @@ click to read the top-ranking 오늘의 판 from your iPhone homescreen. made wi
 4. click "Untitled" at top and name the script, e.g. "Nate Pann"
 5. click Done
 
-to see the widget on your home screen, enable "wiggle" mode by pressing a finger down anywhere, then add Scriptable with the top-left "+" and choose the Nate Pann script you just created. you're done!
+to see the widget on your home screen, enable "wiggle" mode by holding your finger down anywhere, then add Scriptable with the top-left "+" and choose the Nate Pann script you just created. choose option "run script" under "when interacting." you're done!
