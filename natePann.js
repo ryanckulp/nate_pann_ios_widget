@@ -11,10 +11,14 @@ await webview.loadURL(proxy + url);
 
 var getData = `
   var posts = document.getElementsByClassName('list_type2')[0];
-  var topPost = posts.getElementsByTagName('li')[0];
+  var topPost = posts.getElementsByTagName('li')[getRandomInt(9)];
   var stats = topPost.getElementsByClassName('sub')[0];
 
   var data = {title: '', url: '', comments: '', votes: '', views: ''};
+  
+  function getRandomInt(){
+    return Math.floor(Math.random() * max);
+  }
 
   function getTitle(){
     let titleArea = topPost.getElementsByClassName('tit')[0];
