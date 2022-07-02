@@ -16,7 +16,7 @@ var getData = `
 
   var data = {title: '', url: '', comments: '', votes: '', views: ''};
   
-  function getRandomInt(){
+  function getRandomInt(max){
     return Math.floor(Math.random() * max);
   }
 
