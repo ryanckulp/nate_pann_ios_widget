@@ -10,8 +10,9 @@ let webview = new WebView();
 await webview.loadURL(proxy + url);
 
 var getData = `
-  var posts = document.getElementsByClassName('list_type2')[0];
-  var topPost = posts.getElementsByTagName('li')[getRandomInt(9)];
+  var postList = document.getElementsByClassName('list_type2')[0];
+  var posts = postList.getElementsByTagName('li');
+  var topPost = posts[getRandomInt(posts.length - 1)];
   var stats = topPost.getElementsByClassName('sub')[0];
 
   var data = {title: '', url: '', comments: '', votes: '', views: ''};
